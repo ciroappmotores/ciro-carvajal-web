@@ -1515,3 +1515,168 @@ button:focus-visible {
     width: 100%;
   }
 }
+
+/* =========================================================
+   V1.3 — SERVICIOS
+   ========================================================= */
+
+.services-section {
+  background: var(--fondo);
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 26px;
+}
+
+.service-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  padding: 38px;
+  background: var(--blanco);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(6, 182, 212, 0.55);
+  box-shadow: 0 22px 48px rgba(8, 47, 73, 0.14);
+}
+
+.service-number {
+  display: inline-block;
+  align-self: flex-start;
+  margin-bottom: 18px;
+  padding: 5px 13px;
+  border-radius: 999px;
+  background: rgba(245, 158, 11, 0.12);
+  color: var(--dorado);
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.service-card h2 {
+  margin: 0 0 16px;
+  color: var(--azul-profundo);
+  font-size: 1.5rem;
+  letter-spacing: -0.02em;
+}
+
+.service-problem {
+  margin: 0 0 18px;
+  padding: 14px 16px;
+  border-radius: 12px;
+  background: var(--azul-claro);
+  color: var(--azul-profundo);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.service-problem b {
+  color: var(--azul);
+}
+
+.service-list {
+  list-style: none;
+  margin: 0 0 26px;
+  padding: 0;
+  display: grid;
+  gap: 11px;
+}
+
+.service-list li {
+  position: relative;
+  padding-left: 20px;
+  color: var(--texto-suave);
+  font-size: 0.94rem;
+  line-height: 1.6;
+}
+
+.service-list li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--cian);
+  font-weight: 800;
+}
+
+.service-list b {
+  color: var(--azul-profundo);
+}
+
+.service-cta {
+  margin-top: auto;
+  color: var(--azul);
+  font-weight: 700;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.service-cta:hover {
+  color: var(--dorado);
+}
+
+/* BANDA CTA */
+
+.cta-band {
+  background: var(--azul-profundo);
+  color: var(--blanco);
+  padding: 64px 0;
+}
+
+.cta-band-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 26px;
+}
+
+.cta-band h2 {
+  margin: 0 0 8px;
+  font-size: clamp(1.7rem, 3vw, 2.4rem);
+}
+
+.cta-band p {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.05rem;
+}
+
+.cta-band-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.btn-ghost-light {
+  border-color: var(--blanco);
+  color: var(--blanco);
+}
+
+.btn-ghost-light:hover {
+  background: var(--blanco);
+  color: var(--azul-profundo);
+}
+
+@media (max-width: 800px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+  .service-card {
+    padding: 28px 24px;
+  }
+  .cta-band {
+    padding: 48px 0;
+  }
+}
