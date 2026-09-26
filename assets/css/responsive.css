@@ -443,7 +443,7 @@ body {
   }
 
   .hero-visual {
-    max-width: min(520px, 56vh);
+    max-width: min(520px, 60vh);
   }
 
   .hero-image {
@@ -479,7 +479,7 @@ body {
   }
 
   .hero-visual {
-    max-width: min(480px, 52vh);
+    max-width: min(490px, 56vh);
   }
 
 }
@@ -513,7 +513,7 @@ body {
   }
 
   .hero-visual {
-    max-width: min(450px, 48vh);
+    max-width: min(460px, 52vh);
   }
 
 }
