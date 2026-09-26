@@ -1153,7 +1153,7 @@ button:focus-visible {
 
   /* La foto es vertical (1200x1460). En vez de recortarla con max-height,
      se limita el ancho para que entre completa en la altura disponible. */
-  max-width: min(430px, 46vh);
+  max-width: min(500px, 58vh);
 
   justify-self: end;
 }
