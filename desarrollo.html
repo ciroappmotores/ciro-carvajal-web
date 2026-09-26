@@ -39,8 +39,8 @@
     rel="stylesheet"
   >
 
-  <link rel="stylesheet" href="assets/css/styles.css?v=11">
-  <link rel="stylesheet" href="assets/css/responsive.css?v=11">
+  <link rel="stylesheet" href="assets/css/styles.css?v=12">
+  <link rel="stylesheet" href="assets/css/responsive.css?v=12">
 </head>
 
 <body>
@@ -58,80 +58,48 @@
     </svg>
   </a>
 
-  <!-- Botón flotante de contacto rápido (estilo ACIEM) -->
+  <!-- Botón flotante del asistente virtual (estilo ACIEM) -->
   <div class="floating-chat">
 
     <button
       class="floating-chat-btn"
       id="floatingChatBtn"
-      aria-label="Abrir contacto rápido"
-      title="Contacto rápido">
+      aria-label="Abrir asistente virtual"
+      title="Asistente virtual">
       💬
     </button>
 
     <div class="floating-chat-panel" id="floatingChatPanel">
       <div class="floating-chat-header">
         <div>
-          <strong>Contacto rápido</strong>
+          <strong>Asistente Virtual</strong>
           <small>Ciro Carvajal · Ingeniería · IA</small>
         </div>
 
         <button
           class="floating-chat-close"
           id="floatingChatClose"
-          aria-label="Cerrar contacto rápido">
+          aria-label="Cerrar asistente">
           ×
         </button>
       </div>
 
-      <div class="floating-chat-body">
+      <div class="chat-messages" id="chatMessages" aria-live="polite"></div>
 
-        <a
-          class="floating-chat-link"
-          href="https://wa.me/573102754610?text=Hola%2C%20deseo%20recibir%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20Ciro%20Carvajal"
-          target="_blank"
-          rel="noopener noreferrer">
-          <span class="floating-chat-icon">WA</span>
-          <span>WhatsApp</span>
-        </a>
+      <p class="chat-typing" id="chatTyping" hidden>El asistente está escribiendo…</p>
 
-        <a
-          class="floating-chat-link"
-          href="mailto:cirocarvajal@gmail.com"
-          target="_blank"
-          rel="noopener">
-          <span class="floating-chat-icon">@</span>
-          <span>Correo electrónico</span>
-        </a>
+      <div class="chat-suggestions" id="chatSuggestions"></div>
 
-        <a
-          class="floating-chat-link"
-          href="https://www.linkedin.com/in/ciro-antonio-carvajal-labastida-01b1b330/"
-          target="_blank"
-          rel="noopener">
-          <span class="floating-chat-icon">in</span>
-          <span>LinkedIn</span>
-        </a>
+      <form class="chat-form" id="chatForm">
+        <textarea
+          class="chat-input"
+          id="chatInput"
+          rows="1"
+          placeholder="Escriba su mensaje aquí..."
+          aria-label="Mensaje para el asistente"></textarea>
 
-        <a
-          class="floating-chat-link"
-          href="https://www.facebook.com/cirocarvajal"
-          target="_blank"
-          rel="noopener">
-          <span class="floating-chat-icon">f</span>
-          <span>Facebook</span>
-        </a>
-
-        <a
-          class="floating-chat-link"
-          href="https://www.instagram.com/ciroantoniocarvajal/?hl=es"
-          target="_blank"
-          rel="noopener">
-          <span class="floating-chat-icon">IG</span>
-          <span>Instagram</span>
-        </a>
-
-      </div>
+        <button class="chat-send" type="submit">Enviar</button>
+      </form>
     </div>
 
   </div>
@@ -662,6 +630,7 @@
 
 
   <script src="js/main.js?v=11"></script>
+  <script src="js/asistente.js?v=12"></script>
 
 </body>
 </html>
