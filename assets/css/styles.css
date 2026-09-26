@@ -2230,3 +2230,339 @@ button:focus-visible {
     grid-template-columns: 1fr;
   }
 }
+
+/* =========================================================
+   V1.6 — DESARROLLO WEB
+   ========================================================= */
+
+.section-heading .section-description {
+  max-width: 700px;
+  margin: 14px auto 0;
+  color: var(--texto-suave);
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+
+/* STACK */
+
+.stack-section {
+  background: var(--fondo);
+}
+
+.stack-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.stack-card {
+  padding: 30px 28px;
+  background: var(--blanco);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+}
+
+.stack-card h3 {
+  margin: 0 0 14px;
+  color: var(--azul-profundo);
+  font-size: 1.15rem;
+}
+
+.stack-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.stack-chips span {
+  padding: 6px 13px;
+  border-radius: 999px;
+  background: var(--azul-claro);
+  color: var(--azul);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.stack-card p {
+  margin: 0;
+  color: var(--texto-suave);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.stack-chips-small span {
+  padding: 4px 10px;
+  font-size: 0.72rem;
+}
+
+/* METODOLOGÍA EN V */
+
+.vmodel-section {
+  background: var(--blanco);
+}
+
+.v-plan {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+
+.v-plan-grid {
+  display: grid;
+  grid-template-columns: 1fr 160px 1fr;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.v-leg {
+  display: grid;
+  gap: 18px;
+}
+
+.v-step {
+  position: relative;
+  padding: 20px 22px;
+  background: var(--blanco);
+  border: 1px solid var(--borde);
+  border-radius: 16px;
+  box-shadow: var(--sombra);
+}
+
+.v-leg-left .v-step {
+  text-align: right;
+  border-right: 4px solid var(--azul);
+}
+
+.v-leg-right .v-step {
+  text-align: left;
+  border-left: 4px solid var(--dorado);
+}
+
+.v-step-num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--azul-claro);
+  color: var(--azul);
+  font-weight: 800;
+  font-size: 0.85rem;
+}
+
+.v-step h3 {
+  margin: 10px 0 4px;
+  color: var(--azul-profundo);
+  font-size: 1.05rem;
+}
+
+.v-step p {
+  margin: 0;
+  color: var(--texto-suave);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.v-arrow {
+  display: block;
+  margin-top: 10px;
+  color: var(--cian);
+  font-weight: 800;
+}
+
+.v-apex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  padding: 26px 18px;
+  background: linear-gradient(135deg, var(--azul-profundo) 0%, var(--azul) 100%);
+  border-radius: 18px;
+  color: var(--blanco);
+  box-shadow: 0 20px 44px rgba(8, 47, 73, 0.24);
+}
+
+.v-apex-tag {
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: var(--dorado);
+  color: var(--azul-profundo);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.v-apex h3 {
+  margin: 12px 0 6px;
+  color: var(--blanco);
+  font-size: 1.3rem;
+}
+
+.v-apex p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+/* DESARROLLOS ESPECIALES */
+
+.specials-section {
+  background: var(--fondo);
+}
+
+.specials-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+}
+
+.special-card {
+  display: flex;
+  flex-direction: column;
+
+  padding: 26px;
+  background: var(--blanco);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.special-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 22px 48px rgba(8, 47, 73, 0.14);
+}
+
+.dash-demo {
+  margin-bottom: 20px;
+  padding: 16px;
+  border: 1px solid var(--borde);
+  border-radius: 14px;
+  background: linear-gradient(180deg, #eef4fa 0%, #e2ecf5 100%);
+}
+
+.dash-title {
+  margin-bottom: 12px;
+  color: var(--texto-suave);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+}
+
+.mini-bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+  height: 74px;
+}
+
+.mini-bars span {
+  flex: 1;
+  min-height: 8px;
+  border-radius: 5px 5px 0 0;
+  background: linear-gradient(180deg, var(--cian) 0%, var(--azul) 100%);
+}
+
+.mock-chat-answer {
+  margin-top: 8px;
+  background: rgba(8, 47, 73, 0.08);
+  color: var(--azul-profundo);
+}
+
+.special-card h3 {
+  margin: 0 0 10px;
+  color: var(--azul-profundo);
+  font-size: 1.12rem;
+  line-height: 1.35;
+}
+
+.special-card p {
+  margin: 0 0 16px;
+  color: var(--texto-suave);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.special-card .service-cta {
+  margin-top: auto;
+}
+
+/* PRUEBA EN GITHUB */
+
+.github-section {
+  background: var(--blanco);
+}
+
+.github-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 36px;
+  align-items: center;
+
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 48px 50px;
+  background: linear-gradient(135deg, var(--azul-profundo) 0%, var(--azul) 100%);
+  border-radius: 24px;
+  color: var(--blanco);
+  box-shadow: 0 24px 54px rgba(8, 47, 73, 0.26);
+}
+
+.github-code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 96px;
+  height: 96px;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--cian);
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.github-card h2 {
+  margin: 0 0 12px;
+  color: var(--blanco);
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+}
+
+.github-card p {
+  margin: 0 0 26px;
+  color: rgba(255, 255, 255, 0.82);
+  line-height: 1.7;
+}
+
+@media (max-width: 960px) {
+  .stack-grid,
+  .specials-grid {
+    grid-template-columns: 1fr;
+  }
+  .v-plan-grid {
+    grid-template-columns: 1fr;
+  }
+  .v-leg-left .v-step {
+    text-align: left;
+    border-right: none;
+    border-left: 4px solid var(--azul);
+  }
+  .v-leg-left .v-arrow {
+    text-align: left;
+  }
+  .github-card {
+    grid-template-columns: 1fr;
+    text-align: center;
+    justify-items: center;
+    padding: 38px 28px;
+  }
+}
