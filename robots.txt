@@ -4,4 +4,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cirocarvajal.com/sitemap.xml
+Sitemap: https://ciroappmotores.github.io/ciro-carvajal-web/sitemap.xml

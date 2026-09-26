@@ -73,21 +73,34 @@ python scripts/optimize-hero.py
 Genera `ciro-carvajal-hero.webp` (≈100 KB) y `ciro-carvajal-hero.jpg` (≈145 KB)
 a partir del PNG fuente (≈1.8 MB).
 
-## Pendientes antes de publicar
+## Estado de publicación
 
-1. Confirmar el **dominio final** (hoy en marcador `cirocarvajal.com` en canonical, sitemap y Open Graph).
+🌍 **En línea (GitHub Pages):** https://ciroappmotores.github.io/ciro-carvajal-web/
+
+- Repo público, Pages activado desde `main`/raíz, `.nojekyll` incluido.
+- Canonical, sitemap y Open Graph apuntan temporalmente a la URL de GitHub Pages.
+- Al adquirir el **dominio final**, basta con: configurar el dominio personalizado
+  en GitHub Pages (Settings → Pages → Custom domain) y reemplazar la base
+  `https://ciroappmotores.github.io/ciro-carvajal-web` por el dominio final en
+  canonical, og:url, og:image, sitemap.xml y robots.txt (un único reemplazo de texto).
+
+## Pendientes
+
+1. **Dominio y hosting definitivos** → migrar el site y actualizar la base de URL (ver arriba).
 2. **Redes sociales** → verificar perfiles reales de YouTube e Instagram (hoy apuntan a la portada de la plataforma).
 3. **Testimonios reales** → `index.html` (sección con marcadores en gris).
 
 > ✅ Ya activados: correos, WhatsApp (310 2754610 · 300 6083832), LinkedIn real,
 > **CV en PDF** descargable (`assets/docs/CV-Ciro-Carvajal.pdf`), y credenciales completas
 > en `perfil.html`: Matrícula COPNIA, ORCID, CvLAC (Minciencias), Scopus, **Google Scholar**,
-> producción académica, experiencia laboral real y ACIEM (vicepresidencia capítulo NS).
+> producción académica, experiencia laboral real, ACIEM (vicepresidencia capítulo NS)
+> y JSON-LD `Person` con perfiles (sameAs).
 >
 > 🔒 Datos personales (cédula, fecha de nacimiento, dirección) no se publican por privacidad.
 
 ## Despliegue
 
-El sitio es 100 % estático: puede publicarse en **GitHub Pages**, **Netlify**,
-**Cloudflare Pages** o cualquier hosting. Requisitos: mantener la estructura de
-carpetas y, en el hosting, apuntar a `index.html` y a `404.html` para errores.
+El sitio es 100 % estático y ya está publicado en **GitHub Pages** (repo público,
+branch `main`, carpeta raíz). También puede moverse a **Netlify**, **Cloudflare Pages**
+o cualquier hosting. Requisitos: mantener la estructura de carpetas y, en el hosting,
+apuntar a `index.html` y a `404.html` para errores.

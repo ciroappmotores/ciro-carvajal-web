@@ -2,37 +2,37 @@
 <!-- TODO: confirmar el dominio final antes de publicar. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://cirocarvajal.com/</loc>
+    <loc>https://ciroappmotores.github.io/ciro-carvajal-web/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://cirocarvajal.com/perfil.html</loc>
+    <loc>https://ciroappmotores.github.io/ciro-carvajal-web/perfil.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cirocarvajal.com/servicios.html</loc>
+    <loc>https://ciroappmotores.github.io/ciro-carvajal-web/servicios.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cirocarvajal.com/proyectos.html</loc>
+    <loc>https://ciroappmotores.github.io/ciro-carvajal-web/proyectos.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://cirocarvajal.com/conocimiento.html</loc>
+    <loc>https://ciroappmotores.github.io/ciro-carvajal-web/conocimiento.html</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cirocarvajal.com/desarrollo.html</loc>
+    <loc>https://ciroappmotores.github.io/ciro-carvajal-web/desarrollo.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cirocarvajal.com/contacto.html</loc>
+    <loc>https://ciroappmotores.github.io/ciro-carvajal-web/contacto.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
