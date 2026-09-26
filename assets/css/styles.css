@@ -138,13 +138,14 @@ textarea {
 .brand-text span {
   color: var(--azul-profundo);
 
-  font-size: 0.88rem;
+  font-size: 0.78rem;
   font-weight: 800;
 
-  letter-spacing: 0.035em;
+  letter-spacing: 0.025em;
   line-height: 1.25;
 
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 
