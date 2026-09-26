@@ -87,7 +87,7 @@ a partir del PNG fuente (≈1.8 MB).
 ## Pendientes
 
 1. **Dominio y hosting definitivos** → migrar el site y actualizar la base de URL (ver arriba).
-2. **Redes sociales** → verificar perfiles reales de YouTube e Instagram (hoy apuntan a la portada de la plataforma).
+2. **YouTube** → verificar el canal real (hoy apunta a la portada de la plataforma). Instagram ya quedó real: `instagram.com/ciroantoniocarvajal`.
 3. **Testimonios reales** → `index.html` (sección con marcadores en gris).
 
 > ✅ Ya activados: correos, WhatsApp (310 2754610 · 300 6083832), LinkedIn real,

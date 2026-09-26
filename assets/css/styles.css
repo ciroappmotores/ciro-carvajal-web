@@ -593,10 +593,52 @@ textarea {
    Círculo verde fijo en la esquina inferior derecha.
    ========================================================= */
 
-.floating-whatsapp {
+.floating-logo {
   position: fixed;
   right: 22px;
   bottom: 24px;
+  width: 58px;
+  height: 58px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--azul-profundo);
+  color: var(--blanco);
+
+  border-radius: 50%;
+
+  font-family: "Manrope", "Segoe UI", Arial, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.25);
+  z-index: 9997;
+
+  text-decoration: none;
+  text-align: center;
+
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.floating-logo:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.32);
+}
+
+.floating-logo:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 2px;
+}
+
+.floating-whatsapp {
+  position: fixed;
+  right: 22px;
+  bottom: 94px; /* encima del botón flotante con el logotipo */
   width: 58px;
   height: 58px;
   display: flex;
@@ -634,9 +676,14 @@ textarea {
 }
 
 @media (max-width: 600px) {
-  .floating-whatsapp {
+  .floating-logo {
     right: 14px;
     bottom: 18px;
+  }
+
+  .floating-whatsapp {
+    right: 14px;
+    bottom: 88px; /* encima del botón flotante con el logotipo */
   }
 }
 
