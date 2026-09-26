@@ -1067,10 +1067,10 @@ button:focus-visible {
   z-index: 2;
 
   display: grid;
-  grid-template-columns: minmax(0, 1.12fr) minmax(340px, 0.88fr);
+  grid-template-columns: minmax(0, 1.04fr) minmax(360px, 0.96fr);
   align-items: center;
 
-  gap: 48px;
+  gap: 44px;
 }
 
 .hero-content {
