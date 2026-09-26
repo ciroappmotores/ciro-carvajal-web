@@ -2730,3 +2730,211 @@ button:focus-visible {
     padding: 28px 24px;
   }
 }
+
+/* =========================================================
+   V1.8 — HOME COMPLETO
+   ========================================================= */
+
+.bg-white {
+  background: var(--blanco);
+}
+
+.bg-gray {
+  background: var(--fondo);
+}
+
+.section-action {
+  display: flex;
+  justify-content: center;
+  margin-top: 44px;
+}
+
+.dev-recap {
+  margin-top: 44px;
+}
+
+/* CASOS DE ÉXITO */
+
+.cases-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.case-mini-card {
+  display: flex;
+  flex-direction: column;
+
+  padding: 30px 26px;
+  background: var(--blanco);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+
+  transition:
+    transform 0.25s ease,
+    border-color 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.case-mini-card:hover {
+  transform: translateY(-5px);
+  border-color: rgba(6, 182, 212, 0.55);
+  box-shadow: 0 22px 48px rgba(8, 47, 73, 0.14);
+}
+
+.case-mini-tag {
+  align-self: flex-start;
+  margin-bottom: 12px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: rgba(6, 182, 212, 0.12);
+  color: var(--azul);
+  font-size: 0.7rem;
+  font-weight: 800;
+  letter-spacing: 0.07em;
+}
+
+.case-mini-card h3 {
+  margin: 0 0 4px;
+  color: var(--azul-profundo);
+  font-size: 1.12rem;
+  line-height: 1.35;
+}
+
+.case-row {
+  margin-top: 16px;
+}
+
+.case-row-label {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--azul);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.case-row p {
+  margin: 0;
+  color: var(--texto-suave);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.case-mini-card .service-cta {
+  margin-top: auto;
+  padding-top: 18px;
+}
+
+/* CONFERENCIAS / FORMACIÓN */
+
+.conf-section {
+  background: linear-gradient(135deg, var(--azul-profundo) 0%, var(--azul) 100%);
+  color: var(--blanco);
+}
+
+.conf-section .section-heading h2 {
+  color: var(--blanco);
+}
+
+.conf-section .section-eyebrow {
+  color: var(--cian);
+}
+
+.conf-section .section-heading .section-description {
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.conf-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.conf-item {
+  padding: 30px 28px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: var(--radio);
+}
+
+.conf-item h3 {
+  margin: 0 0 8px;
+  color: var(--blanco);
+  font-size: 1.15rem;
+}
+
+.conf-item p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.93rem;
+  line-height: 1.6;
+}
+
+.conf-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 38px;
+}
+
+/* TESTIMONIOS */
+
+.testimonials-grid,
+.testimonial-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.testimonial-card {
+  padding: 28px 26px;
+  background: var(--blanco);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  box-shadow: var(--sombra);
+}
+
+.testimonial-card blockquote {
+  margin: 0 0 16px;
+  color: var(--texto-suave);
+  font-size: 0.98rem;
+  line-height: 1.7;
+  font-style: italic;
+}
+
+.testimonial-card blockquote::before {
+  content: "“";
+  display: block;
+  color: var(--cian);
+  font-size: 2.4rem;
+  line-height: 1;
+  margin-bottom: 6px;
+}
+
+.testimonial-author {
+  color: var(--azul-profundo);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.testimonial-placeholder {
+  color: #9aa7b8;
+}
+
+.testimonials-note {
+  margin: 26px 0 0;
+  text-align: center;
+  color: var(--texto-suave);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 960px) {
+  .cases-grid,
+  .conf-grid,
+  .testimonial-grid {
+    grid-template-columns: 1fr;
+  }
+}
