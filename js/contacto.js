@@ -1,7 +1,6 @@
 // V1.7 — Contacto (contacto.html)
-// TODO: reemplazar estos datos por los reales del usuario.
-const CONTACT_EMAIL = "ciro@pendiente.com"; // TODO: correo real
-const WHATSAPP_NUMBER = "573000000000"; // TODO: número real con código de país (ej: 573001112233)
+const CONTACT_EMAIL = "cirocarvajal@gmail.com";
+const WHATSAPP_NUMBER = "573102754610"; // 310 2754610 (Colombia, +57)
 const LINKEDIN_URL = ""; // TODO: URL del perfil de LinkedIn
 
 const encode = (value) => encodeURIComponent(value);
