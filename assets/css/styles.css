@@ -2761,6 +2761,65 @@ button:focus-visible {
   font-weight: 600;
 }
 
+/* =========================================================
+   CREDENCIALES (perfil.html)
+   ========================================================= */
+
+.credentials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  gap: 18px;
+}
+
+.credentials-item {
+  padding: 22px 24px;
+
+  background: var(--azul-claro);
+  border: 1px solid rgba(3, 105, 161, 0.14);
+  border-radius: 16px;
+}
+
+.credentials-label {
+  display: block;
+
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+
+  color: var(--cian);
+  text-transform: uppercase;
+
+  margin-bottom: 8px;
+}
+
+.credentials-value {
+  font-family: "Manrope", "Segoe UI", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.05rem;
+
+  color: var(--azul-profundo);
+
+  margin-bottom: 8px;
+}
+
+.credentials-note {
+  font-size: 0.92rem;
+  line-height: 1.65;
+
+  color: var(--texto-suave);
+}
+
+.credentials-note a {
+  color: var(--azul);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.credentials-note a:hover {
+  color: var(--cian);
+}
+
 .contact-channels {
   display: grid;
   gap: 16px;

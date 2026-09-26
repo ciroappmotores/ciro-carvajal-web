@@ -1,7 +1,7 @@
 // V1.7 — Contacto (contacto.html)
 const CONTACT_EMAIL = "cirocarvajal@gmail.com";
 const WHATSAPP_NUMBER = "573102754610"; // 310 2754610 (Colombia, +57)
-const LINKEDIN_URL = "https://www.linkedin.com/feed/"; // TODO: usar la URL del perfil (linkedin.com/in/usuario) si es distinta
+const LINKEDIN_URL = "https://www.linkedin.com/in/ciro-antonio-carvajal-labastida-01b1b330/";
 
 const encode = (value) => encodeURIComponent(value);
 
