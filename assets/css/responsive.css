@@ -216,12 +216,6 @@
     max-height: 38vh;
   }
 
-  .hero-tech-card {
-    left: 20px;
-    bottom: 16px;
-    padding: 10px 14px;
-  }
-
   /* Tarjetas */
 
   .expertise-grid,
@@ -336,21 +330,6 @@
 
   .hero-image-frame {
     border-radius: 20px;
-  }
-
-  .hero-tech-card {
-    position: relative;
-
-    left: auto;
-    bottom: auto;
-
-    width: 100%;
-
-    margin-top: 14px;
-
-    justify-content: center;
-
-    flex-wrap: wrap;
   }
 
   /* Secciones */
@@ -472,10 +451,6 @@ body {
   .hero-image {
     min-height: 0;
     max-height: 50vh;
-  }
-
-  .hero-tech-card {
-    bottom: 22px;
   }
 
 }

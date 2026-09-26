@@ -676,44 +676,6 @@ textarea {
   outline-offset: 2px;
 }
 
-/* Burbuja de mensaje junto al botón flotante de WhatsApp */
-.floating-label {
-  position: absolute;
-  right: calc(100% + 12px);
-  top: 50%;
-  transform: translateY(-50%);
-
-  padding: 8px 14px;
-
-  background: #ffffff;
-  color: var(--azul-profundo);
-
-  border-radius: 999px;
-
-  font-size: 0.88rem;
-  font-weight: 700;
-  white-space: nowrap;
-
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
-
-  transition: transform 0.2s ease;
-}
-
-.floating-label::after {
-  content: "";
-  position: absolute;
-  right: -6px;
-  top: 50%;
-  transform: translateY(-50%);
-
-  border: 6px solid transparent;
-  border-left-color: #ffffff;
-}
-
-.floating-whatsapp:hover .floating-label {
-  transform: translateY(-50%) scale(1.05);
-}
-
 @media (max-width: 600px) {
   .floating-logo {
     right: 14px;
@@ -723,13 +685,6 @@ textarea {
   .floating-whatsapp {
     right: 14px;
     bottom: 88px; /* encima del botón flotante con el logotipo */
-  }
-
-  .floating-label {
-    right: calc(100% + 10px);
-
-    font-size: 0.82rem;
-    padding: 7px 12px;
   }
 }
 
@@ -1030,36 +985,6 @@ button:focus-visible {
 }
 
 
-/* ---------- TARJETA SOBRE FOTO ---------- */
-
-.hero-tech-card {
-  position: absolute;
-
-  left: -35px;
-  bottom: 30px;
-
-  z-index: 4;
-
-  display: flex;
-  gap: 9px;
-
-  padding: 14px 18px;
-
-  background: rgba(255, 255, 255, 0.96);
-
-  border-left: 4px solid var(--dorado);
-  border-radius: 10px;
-
-  box-shadow: var(--sombra);
-}
-
-.hero-tech-card span {
-  color: var(--azul-profundo);
-
-  font-size: 0.73rem;
-  font-weight: 800;
-  letter-spacing: 0.06em;
-}
 /* =========================================================
    CONOCIMIENTO APLICADO
 ========================================================= */
