@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Conocimiento e investigación de Ciro Carvajal: insight de la semana, artículos, índice temático por especialidad y resultados de investigación."
+  >
+
+  <title>Ciro Carvajal | Conocimiento</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+  <!-- ======================================================
+       HEADER
+  ======================================================= -->
+
+  <header class="site-header">
+
+    <div class="container header-container">
+
+      <a class="brand" href="index.html" aria-label="Ciro Carvajal - Inicio">
+
+        <div class="brand-symbol" aria-hidden="true">
+          CC
+        </div>
+
+        <div class="brand-text">
+          <strong>CIRO CARVAJAL</strong>
+          <span>Ingeniería · IA · Tecnología</span>
+        </div>
+
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Abrir menú"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav
+        class="main-navigation"
+        id="main-navigation"
+        aria-label="Navegación principal"
+      >
+        <a href="index.html">Inicio</a>
+        <a href="perfil.html">Perfil</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a class="active" href="conocimiento.html">Conocimiento</a>
+        <a href="desarrollo.html">Desarrollo</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+
+      <a class="header-cta" href="contacto.html">
+        SOLICITAR ASESORÍA
+      </a>
+
+    </div>
+
+  </header>
+
+
+  <!-- ======================================================
+       CONOCIMIENTO HERO
+  ======================================================= -->
+
+  <main>
+
+    <section class="page-hero">
+
+      <div class="container">
+
+        <p class="section-eyebrow">CONOCIMIENTO E INVESTIGACIÓN</p>
+
+        <h1>
+          Ideas, artículos y resultados
+          <span>que se pueden aplicar</span> el lunes en la mañana
+        </h1>
+
+        <p class="hero-description">
+          Un índice temático en evolución: ingeniería, mantenimiento, SST,
+          educación, inteligencia artificial, transformación digital,
+          desarrollo web e investigación.
+        </p>
+
+      </div>
+
+    </section>
+
+    <!-- ======================================================
+         INSIGHT DE LA SEMANA
+    ======================================================= -->
+
+    <section class="section insight-section">
+
+      <div class="container">
+
+        <div class="insight-card">
+
+          <div class="insight-meta">
+
+            <span class="insight-badge">INSIGHT DE LA SEMANA</span>
+
+            <span class="insight-tag">IA · Tecnología</span>
+
+          </div>
+
+          <h2>La IA no reemplaza ingenieros: los multiplica</h2>
+
+          <p>
+            La inteligencia artificial generativa cambia la naturaleza del
+            trabajo técnico: no se trata de sustituir el criterio del ingeniero,
+            sino de ampliar su capacidad de análisis, simulación y producción.
+            Quien adopta estas herramientas resuelve en horas lo que antes
+            tomaba días — y ese diferencial se vuelve ventaja competitiva para
+            su empresa o su carrera.
+          </p>
+
+          <a class="service-cta" href="#indice-tematico">
+            Leer más sobre el tema →
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ======================================================
+         ÍNDICE TEMÁTICO CON FILTRO
+    ======================================================= -->
+
+    <section class="section topics-section" id="indice-tematico">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <p class="section-eyebrow">ÍNDICE TEMÁTICO</p>
+
+          <h2>Artículos y publicaciones por especialidad</h2>
+
+        </div>
+
+        <div class="topic-filters" role="group" aria-label="Filtrar por tema">
+
+          <button class="topic-filter is-active" data-topic-filter="todos">Todos</button>
+          <button class="topic-filter" data-topic-filter="mecanica">Ingeniería mecánica</button>
+          <button class="topic-filter" data-topic-filter="mantenimiento">Mantenimiento</button>
+          <button class="topic-filter" data-topic-filter="sst">SST</button>
+          <button class="topic-filter" data-topic-filter="educacion">Educación</button>
+          <button class="topic-filter" data-topic-filter="ia">IA</button>
+          <button class="topic-filter" data-topic-filter="digital">Transformación digital</button>
+          <button class="topic-filter" data-topic-filter="web">Desarrollo web</button>
+          <button class="topic-filter" data-topic-filter="investigacion">Investigación</button>
+
+        </div>
+
+        <div class="topics-grid" id="topicsGrid">
+
+          <article class="article-card" data-tema="mecanica">
+            <span class="article-tag">Ingeniería mecánica</span>
+            <h3>De la falla reactiva al mantenimiento predictivo</h3>
+            <p>Confiabilidad de activos: cómo pasar de apagar incendios a anticipar fallas con datos y condición.</p>
+            <span class="article-meta">ARTÍCULO · 8 min</span>
+          </article>
+
+          <article class="article-card" data-tema="mecanica">
+            <span class="article-tag">Ingeniería mecánica</span>
+            <h3>Eficiencia energética en sistemas de bombeo</h3>
+            <p>Puntos de operación, pérdidas y rediseño: estrategias prácticas para reducir el consumo.</p>
+            <span class="article-meta">GUÍA · 12 min</span>
+          </article>
+
+          <article class="article-card" data-tema="mantenimiento">
+            <span class="article-tag">Mantenimiento</span>
+            <h3>KPIs de mantenimiento: qué medir y cómo leerlos</h3>
+            <p>MTBF, MTTR, disponibilidad y cumplimiento: los indicadores que realmente gobiernan el taller.</p>
+            <span class="article-meta">ARTÍCULO · 7 min</span>
+          </article>
+
+          <article class="article-card" data-tema="mantenimiento">
+            <span class="article-tag">Mantenimiento</span>
+            <h3>Plan maestro de mantenimiento: metodología</h3>
+            <p>De la lista de equipos al plan ejecutable, con criticidad, rutas y frecuencia basada en riesgo.</p>
+            <span class="article-meta">GUÍA · 15 min</span>
+          </article>
+
+          <article class="article-card" data-tema="sst">
+            <span class="article-tag">SST</span>
+            <h3>Trabajo en alturas: del certificado a la cultura preventiva</h3>
+            <p>La formación obligatoria es el piso, no el techo: competencias, supervisión y hábitos seguros.</p>
+            <span class="article-meta">ARTÍCULO · 9 min</span>
+          </article>
+
+          <article class="article-card" data-tema="sst">
+            <span class="article-tag">SST</span>
+            <h3>Espacios confinados: procedimientos que salvan vidas</h3>
+            <p>Permisos, medición de atmósfera, vigilancia y rescate: el protocolo completo fuera del papel.</p>
+            <span class="article-meta">GUÍA · 11 min</span>
+          </article>
+
+          <article class="article-card" data-tema="educacion">
+            <span class="article-tag">Educación</span>
+            <h3>Interactividad en el aula: métodos que encienden el aprendizaje</h3>
+            <p>Mediaciones y estrategias para pasar de clases magistrales a experiencias participativas.</p>
+            <span class="article-meta">RESULTADO DE INVESTIGACIÓN · 14 min</span>
+          </article>
+
+          <article class="article-card" data-tema="educacion">
+            <span class="article-tag">Educación</span>
+            <h3>Del tablero al LMS: mediaciones digitales en la universidad</h3>
+            <p>Cómo integrar herramientas digitales sin perder la calidad pedagógica del encuentro.</p>
+            <span class="article-meta">ARTÍCULO · 10 min</span>
+          </article>
+
+          <article class="article-card" data-tema="ia">
+            <span class="article-tag">IA</span>
+            <h3>IA generativa en la empresa: primeros casos de uso rentables</h3>
+            <p>Documentación, soporte, análisis y automatización: por dónde empezar sin perder el control.</p>
+            <span class="article-meta">ARTÍCULO · 9 min</span>
+          </article>
+
+          <article class="article-card" data-tema="ia">
+            <span class="article-tag">IA</span>
+            <h3>Agentes IA: automatizando flujos de trabajo reales</h3>
+            <p>De chats a agentes que ejecutan tareas: arquitectura simple de orquestación para pymes.</p>
+            <span class="article-meta">GUÍA · 16 min</span>
+          </article>
+
+          <article class="article-card" data-tema="digital">
+            <span class="article-tag">Transformación digital</span>
+            <h3>Madurez digital: cómo diagnosticarla en una pyme</h3>
+            <p>Un instrumento práctico para saber dónde está la empresa y qué digitalizar primero.</p>
+            <span class="article-meta">RESULTADO DE INVESTIGACIÓN · 12 min</span>
+          </article>
+
+          <article class="article-card" data-tema="digital">
+            <span class="article-tag">Transformación digital</span>
+            <h3>Del Excel al dashboard: decisiones con datos</h3>
+            <p>Indicadores vivos que reemplazan las tablas muertas y alimentan la junta directiva.</p>
+            <span class="article-meta">GUÍA · 8 min</span>
+          </article>
+
+          <article class="article-card" data-tema="web">
+            <span class="article-tag">Desarrollo web</span>
+            <h3>GitHub Actions: automatizando la actualización de un portal</h3>
+            <p>El caso real del observatorio de indicadores que se actualiza solo cada día.</p>
+            <span class="article-meta">CASO DE ESTUDIO · 13 min</span>
+          </article>
+
+          <article class="article-card" data-tema="web">
+            <span class="article-tag">Desarrollo web</span>
+            <h3>Chatbots con IA en portales institucionales</h3>
+            <p>Asistentes en español que responden de verdad: datos, alcance y buenas prácticas.</p>
+            <span class="article-meta">CASO DE ESTUDIO · 11 min</span>
+          </article>
+
+          <article class="article-card" data-tema="investigacion">
+            <span class="article-tag">Investigación</span>
+            <h3>Construir instrumentos de medición válidos</h3>
+            <p>Del cuestionario débil al instrumento validado: validez de contenido, constructo y confiabilidad.</p>
+            <span class="article-meta">GUÍA · 18 min</span>
+          </article>
+
+          <article class="article-card" data-tema="investigacion">
+            <span class="article-tag">Investigación</span>
+            <h3>SEM y AMOS en la práctica: modelos de ecuaciones estructurales</h3>
+            <p>Cómo modelar relaciones complejas y publicar resultados que aprueban la revisión por pares.</p>
+            <span class="article-meta">ARTÍCULO · 20 min</span>
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ======================================================
+         RESULTADOS DE INVESTIGACIÓN
+    ======================================================= -->
+
+    <section class="section research-section">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <p class="section-eyebrow">RESULTADOS DE INVESTIGACIÓN</p>
+
+          <h2>Instrumentos y estudios disponibles</h2>
+
+        </div>
+
+        <div class="research-grid">
+
+          <div class="research-item">
+            <h3>Sistema IMDF</h3>
+            <p>Instrumento de medición de la madurez digital de ferreterías.</p>
+            <a class="service-cta" href="contacto.html">Consultar disponibilidad →</a>
+          </div>
+
+          <div class="research-item">
+            <h3>Dashboard de factores psicosociales</h3>
+            <p>Medición y visualización de factores psicosociales del teletrabajo.</p>
+            <a class="service-cta" href="contacto.html">Consultar disponibilidad →</a>
+          </div>
+
+          <div class="research-item">
+            <h3>Interactividad estudiantil</h3>
+            <p>Línea de investigación sobre métodos que potencian la interacción en el aula.</p>
+            <a class="service-cta" href="contacto.html">Consultar disponibilidad →</a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <!-- ======================================================
+         CTA FINAL
+    ======================================================= -->
+
+    <section class="cta-band">
+
+      <div class="container cta-band-row">
+
+        <div>
+
+          <h2>¿Conversemos sobre uno de estos temas?</h2>
+
+          <p>
+            Conferencias, talleres o asesoría: adapto el contenido a su audiencia.
+          </p>
+
+        </div>
+
+        <div class="cta-band-actions">
+
+          <a class="btn btn-ghost btn-ghost-light" href="contacto.html">
+            SOLICITAR PROPUESTA
+          </a>
+
+          <a class="btn btn-primary" href="https://wa.me/" target="_blank" rel="noopener">
+            ESCRIBIR POR WHATSAPP
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ======================================================
+       FOOTER
+  ======================================================= -->
+
+  <footer class="site-footer">
+
+    <div class="container footer-container">
+
+      <p>
+        © 2026 Ciro Carvajal. Todos los derechos reservados.
+      </p>
+
+      <p>
+        Ingeniería · Inteligencia Artificial · Tecnología
+      </p>
+
+    </div>
+
+  </footer>
+
+
+  <script src="js/main.js"></script>
+  <script src="js/conocimiento.js"></script>
+
+</body>
+</html>
