@@ -1,0 +1,7 @@
+# Ciro Carvajal — robots.txt
+# TODO: confirmar el dominio final antes de publicar y actualizar la URL del sitemap.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://cirocarvajal.com/sitemap.xml
