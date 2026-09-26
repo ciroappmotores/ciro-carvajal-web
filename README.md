@@ -76,11 +76,11 @@ a partir del PNG fuente (≈1.8 MB).
 ## Pendientes antes de publicar
 
 1. Confirmar el **dominio final** (hoy en marcador `cirocarvajal.com` en canonical, sitemap y Open Graph).
-2. **LinkedIn** → `js/contacto.js` (`LINKEDIN_URL`) — pendiente de la URL del perfil.
+2. **Redes sociales** → verificar/perfil real de YouTube e Instagram (hoy apuntan a la portada de la plataforma) y URL de perfil de LinkedIn si es distinta.
 3. **CV en PDF** → colocar en `assets/docs/CV-Ciro-Carvajal.pdf` y conectar los botones de descarga en `perfil.html`.
 4. **Testimonios reales** → `index.html` (sección con marcadores en gris).
 
-> ✅ Ya activados: correo `cirocarvajal@gmail.com` y WhatsApp `310 2754610` (todos los enlaces del sitio).
+> ✅ Ya activados: correo `cirocarvajal@gmail.com`, WhatsApp `310 2754610` (todos los enlaces del sitio), Facebook y LinkedIn en la página de Contacto.
 
 ## Despliegue
 
