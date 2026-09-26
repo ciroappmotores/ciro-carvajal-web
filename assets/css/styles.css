@@ -775,6 +775,17 @@ button:focus-visible {
   letter-spacing: 0.08em;
 }
 
+.brand-logo {
+  width: auto;
+  height: 48px;
+  flex-shrink: 0;
+
+  display: block;
+
+  object-fit: contain;
+  object-position: left center;
+}
+
 .main-navigation {
   display: flex;
   align-items: center;
@@ -861,7 +872,7 @@ button:focus-visible {
   display: flex;
   align-items: center;
 
-  padding: 70px 0 80px;
+  padding: 60px 0 64px;
 
   position: relative;
   overflow: hidden;
@@ -889,7 +900,7 @@ button:focus-visible {
   grid-template-columns: minmax(0, 1.12fr) minmax(340px, 0.88fr);
   align-items: center;
 
-  gap: 70px;
+  gap: 56px;
 }
 
 .hero-content {
@@ -908,11 +919,11 @@ button:focus-visible {
 }
 
 .hero-content h1 {
-  margin: 0 0 24px;
+  margin: 0 0 20px;
 
   color: var(--azul-profundo);
 
-  font-size: clamp(4rem, 6.4vw, 6.7rem);
+  font-size: clamp(3.6rem, 5.8vw, 5.8rem);
   line-height: 0.84;
   letter-spacing: -0.055em;
 }
@@ -929,11 +940,11 @@ button:focus-visible {
 .hero-content h2 {
   max-width: 760px;
 
-  margin-bottom: 22px;
+  margin-bottom: 18px;
 
   color: var(--azul);
 
-  font-size: clamp(1.65rem, 2.7vw, 2.7rem);
+  font-size: clamp(1.5rem, 2.4vw, 2.4rem);
   line-height: 1.12;
 }
 
@@ -954,11 +965,11 @@ button:focus-visible {
 .hero-description {
   max-width: 720px;
 
-  margin-bottom: 32px;
+  margin-bottom: 26px;
 
   color: var(--texto-suave);
 
-  font-size: 1.06rem;
+  font-size: 1.02rem;
   line-height: 1.75;
 }
 
@@ -969,7 +980,7 @@ button:focus-visible {
   position: relative;
 
   width: 100%;
-  max-width: 470px;
+  max-width: 440px;
 
   justify-self: end;
 }
@@ -1007,9 +1018,9 @@ button:focus-visible {
 
 .hero-image {
   width: 100%;
-  height: auto;
-  min-height: 520px;
-  max-height: 650px;
+  height: 100%;
+  min-height: 460px;
+  max-height: 600px;
 
   object-fit: cover;
   object-position: center top;
