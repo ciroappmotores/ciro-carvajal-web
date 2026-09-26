@@ -598,7 +598,7 @@ textarea {
 .floating-logo {
   position: fixed;
   right: 22px;
-  bottom: 24px;
+  bottom: 22px; /* igual que .aci-chat de ACIEM (esquina inferior derecha) */
   width: 58px;
   height: 58px;
 
@@ -640,7 +640,7 @@ textarea {
 .floating-whatsapp {
   position: fixed;
   right: 22px;
-  bottom: 94px; /* encima del botón flotante con el logotipo */
+  bottom: 96px; /* igual que .aci-whatsapp de ACIEM: encima del botón inferior */
   width: 58px;
   height: 58px;
   display: flex;
@@ -679,13 +679,13 @@ textarea {
 
 @media (max-width: 600px) {
   .floating-logo {
-    right: 14px;
-    bottom: 18px;
+    right: 12px; /* igual que .aci-chat de ACIEM en móvil */
+    bottom: 12px;
   }
 
   .floating-whatsapp {
-    right: 14px;
-    bottom: 88px; /* encima del botón flotante con el logotipo */
+    right: 12px; /* igual que .aci-whatsapp de ACIEM en móvil */
+    bottom: 82px; /* encima del botón inferior */
   }
 }
 
