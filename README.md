@@ -92,7 +92,7 @@ a partir del PNG fuente (≈1.8 MB).
 
 > ✅ Ya activados: correos, WhatsApp (310 2754610 · 300 6083832), LinkedIn real,
 > **CV en PDF** descargable (`assets/docs/CV-Ciro-Carvajal.pdf`), y credenciales completas
-> en `perfil.html`: Matrícula COPNIA, ORCID, CvLAC (Minciencias), Scopus, **Google Scholar**,
+> en `perfil.html`: Matrícula Profesional, ORCID, CvLAC (Minciencias), Scopus, **Google Scholar**,
 > producción académica, experiencia laboral real, ACIEM (vicepresidencia capítulo NS)
 > y JSON-LD `Person` con perfiles (sameAs).
 >
