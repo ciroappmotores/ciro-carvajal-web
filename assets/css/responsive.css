@@ -41,7 +41,7 @@
   }
 
   .hero-visual {
-    max-width: min(470px, 55vh);
+    max-width: min(520px, 60vh);
   }
 
   .hero-image {
@@ -205,7 +205,7 @@
 
   .hero-visual {
     width: min(100%, 460px);
-    max-width: min(460px, 42vh);
+    max-width: min(480px, 46vh);
 
     justify-self: center;
   }
@@ -443,7 +443,7 @@ body {
   }
 
   .hero-visual {
-    max-width: min(440px, 48vh);
+    max-width: min(520px, 56vh);
   }
 
   .hero-image {
@@ -479,7 +479,7 @@ body {
   }
 
   .hero-visual {
-    max-width: min(490px, 52vh);
+    max-width: min(480px, 52vh);
   }
 
 }
@@ -513,7 +513,7 @@ body {
   }
 
   .hero-visual {
-    max-width: min(470px, 46vh);
+    max-width: min(450px, 48vh);
   }
 
 }
