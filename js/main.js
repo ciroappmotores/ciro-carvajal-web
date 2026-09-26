@@ -20,3 +20,28 @@ if (menuToggle && mainNavigation) {
     });
   });
 }
+
+// Botón flotante de contacto rápido (estilo ACIEM): abre/cierra el panel.
+const chatBtn = document.getElementById("floatingChatBtn");
+const chatPanel = document.getElementById("floatingChatPanel");
+const chatClose = document.getElementById("floatingChatClose");
+
+if (chatBtn && chatPanel && chatClose) {
+  chatBtn.addEventListener("click", () => {
+    chatPanel.classList.toggle("activo");
+  });
+
+  chatClose.addEventListener("click", () => {
+    chatPanel.classList.remove("activo");
+  });
+
+  // Cerrar al pulsar fuera del panel
+  document.addEventListener("click", (event) => {
+    if (
+      !event.target.closest(".floating-chat") &&
+      chatPanel.classList.contains("activo")
+    ) {
+      chatPanel.classList.remove("activo");
+    }
+  });
+}

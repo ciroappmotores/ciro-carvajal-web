@@ -17,7 +17,7 @@ if (channelEmail) {
 }
 
 const presetWhatsAppText =
-  "Hola Ciro, visité su sitio web y quiero conversar sobre un proyecto.";
+  "Hola, deseo recibir información sobre los servicios de Ciro Carvajal";
 
 if (channelWhatsApp) {
   channelWhatsApp.href = `https://wa.me/${WHATSAPP_NUMBER}?text=${encode(
