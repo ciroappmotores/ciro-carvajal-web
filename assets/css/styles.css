@@ -1038,7 +1038,10 @@ button:focus-visible {
 /* ---------- HERO ---------- */
 
 .hero {
-  min-height: calc(100vh - 82px);
+  /* 83px = navbar (82px) + borde inferior (1px), la altura real del header.
+     Con 82px la portada se pasaba 1px y obligaba a hacer scroll. */
+  min-height: calc(100vh - 83px);
+  min-height: calc(100dvh - 83px);
   display: flex;
   align-items: center;
 

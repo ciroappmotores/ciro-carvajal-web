@@ -66,6 +66,11 @@
     min-height: 74px;
   }
 
+  .hero {
+    min-height: calc(100vh - 75px);
+    min-height: calc(100dvh - 75px);
+  }
+
   .brand-symbol {
     width: 42px;
     height: 42px;
@@ -455,27 +460,37 @@ body {
 @media (max-height: 780px) and (min-width: 961px) {
 
   .hero {
-    padding: 26px 0 32px;
+    padding: 22px 0 26px;
   }
 
   .hero-container {
-    gap: 34px;
+    gap: 30px;
+  }
+
+  .hero-eyebrow {
+    margin-bottom: 12px;
+
+    font-size: 0.82rem;
   }
 
   .hero-content h1 {
-    font-size: clamp(2.9rem, 4.4vw, 4.3rem);
-    margin-bottom: 14px;
-  }
-
-  .hero-content h2 {
-    font-size: clamp(1.3rem, 1.9vw, 1.85rem);
+    font-size: clamp(2.6rem, 4vw, 4rem);
     margin-bottom: 12px;
   }
 
+  .hero-content h2 {
+    font-size: clamp(1.2rem, 1.75vw, 1.7rem);
+    margin-bottom: 10px;
+  }
+
+  .hero-roles {
+    margin-bottom: 10px;
+  }
+
   .hero-description {
-    font-size: 0.94rem;
-    line-height: 1.58;
-    margin-bottom: 18px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 14px;
   }
 
   .hero-visual {
@@ -487,29 +502,40 @@ body {
 @media (max-height: 680px) and (min-width: 961px) {
 
   .hero {
-    min-height: calc(100vh - 82px);
-    padding: 22px 0 28px;
+    min-height: calc(100vh - 83px);
+    min-height: calc(100dvh - 83px);
+    padding: 16px 0 20px;
   }
 
   .hero-container {
-    gap: 30px;
+    gap: 24px;
+  }
+
+  .hero-eyebrow {
+    margin-bottom: 10px;
+
+    font-size: 0.78rem;
   }
 
   .hero-content h1 {
-    font-size: clamp(2.7rem, 4.1vw, 4rem);
-    margin-bottom: 12px;
+    font-size: clamp(2.2rem, 3.5vw, 3.4rem);
+    margin-bottom: 10px;
   }
 
   .hero-content h2 {
-    font-size: clamp(1.2rem, 1.8vw, 1.7rem);
-    margin-bottom: 10px;
+    font-size: clamp(1.1rem, 1.6vw, 1.5rem);
+    margin-bottom: 8px;
+  }
+
+  .hero-roles {
+    margin-bottom: 8px;
   }
 
   .hero-description {
     display: block;
-    font-size: 0.9rem;
-    line-height: 1.5;
-    margin-bottom: 14px;
+    font-size: 0.85rem;
+    line-height: 1.45;
+    margin-bottom: 10px;
   }
 
   .hero-visual {
