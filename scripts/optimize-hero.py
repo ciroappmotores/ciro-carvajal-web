@@ -6,7 +6,7 @@ SRC = "assets/img/ciro/ciro-carvajal-hero.png"
 OUT_DIR = "assets/img/ciro"
 
 im = Image.open(SRC).convert("RGB")
-w, h = im.size  # 1536 x 1024
+w, h = im.size  # foto vertical 1137 x 1383 (reemplazada en V1.10+)
 
 # 1200 px de ancho: suficiente para el marco de 470 px (y retina) en el hero.
 target_w = 1200
