@@ -77,13 +77,14 @@ a partir del PNG fuente (≈1.8 MB).
 
 1. Confirmar el **dominio final** (hoy en marcador `cirocarvajal.com` en canonical, sitemap y Open Graph).
 2. **Redes sociales** → verificar perfiles reales de YouTube e Instagram (hoy apuntan a la portada de la plataforma).
-3. **Google Scholar** → confirmar URL directa del perfil (hoy queda como nota en Credenciales).
-4. **CV en PDF** → colocar en `assets/docs/CV-Ciro-Carvajal.pdf` y conectar los botones de descarga en `perfil.html`.
-5. **Testimonios reales** → `index.html` (sección con marcadores en gris).
+3. **Testimonios reales** → `index.html` (sección con marcadores en gris).
 
-> ✅ Ya activados: correo `cirocarvajal@gmail.com`, WhatsApp `310 2754610`, LinkedIn real,
-> y credenciales de investigación: Matrícula Profesional COPNIA, ORCID, CvLAC (Minciencias)
-> y Scopus Author ID en la sección Credenciales de `perfil.html`.
+> ✅ Ya activados: correos, WhatsApp (310 2754610 · 300 6083832), LinkedIn real,
+> **CV en PDF** descargable (`assets/docs/CV-Ciro-Carvajal.pdf`), y credenciales completas
+> en `perfil.html`: Matrícula COPNIA, ORCID, CvLAC (Minciencias), Scopus, **Google Scholar**,
+> producción académica, experiencia laboral real y ACIEM (vicepresidencia capítulo NS).
+>
+> 🔒 Datos personales (cédula, fecha de nacimiento, dirección) no se publican por privacidad.
 
 ## Despliegue
 

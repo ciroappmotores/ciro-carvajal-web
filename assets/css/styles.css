@@ -2820,6 +2820,170 @@ button:focus-visible {
   color: var(--cian);
 }
 
+/* =========================================================
+   FORMACIÓN — DETALLE (perfil.html)
+   ========================================================= */
+
+.formation-details {
+  list-style: none;
+  margin: 26px 0 0;
+  padding: 0;
+
+  display: grid;
+  gap: 12px;
+}
+
+.formation-details li {
+  padding: 16px 18px;
+
+  background: var(--blanco);
+  border-left: 4px solid var(--dorado);
+  border-radius: 0 12px 12px 0;
+
+  box-shadow: 0 4px 14px rgba(11, 31, 51, 0.06);
+}
+
+.formation-details strong {
+  display: block;
+
+  font-family: "Manrope", "Segoe UI", Arial, sans-serif;
+  color: var(--azul-profundo);
+
+  margin-bottom: 3px;
+}
+
+.formation-details span {
+  display: block;
+
+  font-size: 0.92rem;
+  line-height: 1.6;
+
+  color: var(--texto-suave);
+}
+
+/* =========================================================
+   EXPERIENCIA (perfil.html)
+   ========================================================= */
+
+.experience-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  gap: 14px;
+}
+
+.experience-item {
+  padding: 20px 22px;
+
+  background: var(--blanco);
+  border: 1px solid rgba(11, 31, 51, 0.08);
+  border-left: 4px solid var(--cian);
+  border-radius: 14px;
+
+  box-shadow: 0 6px 18px rgba(11, 31, 51, 0.05);
+}
+
+.experience-role {
+  display: block;
+
+  font-family: "Manrope", "Segoe UI", Arial, sans-serif;
+  font-weight: 700;
+
+  color: var(--azul-profundo);
+
+  margin-bottom: 2px;
+}
+
+.experience-place {
+  display: block;
+
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  color: var(--azul);
+
+  margin-bottom: 8px;
+}
+
+.experience-note {
+  margin: 0;
+  font-size: 0.94rem;
+  line-height: 1.65;
+
+  color: var(--texto-suave);
+}
+
+/* =========================================================
+   PRODUCCIÓN ACADÉMICA (perfil.html)
+   ========================================================= */
+
+.publication-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  gap: 14px;
+}
+
+.publication-item {
+  padding: 18px 20px;
+
+  background: var(--azul-claro);
+  border-radius: 12px;
+}
+
+.publication-item .pub-cite {
+  display: block;
+
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: var(--azul);
+
+  margin-bottom: 6px;
+}
+
+.publication-item p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.65;
+
+  color: var(--texto);
+}
+
+.publication-item p a {
+  color: var(--azul);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.publication-item p a:hover {
+  color: var(--cian);
+}
+
+/* =========================================================
+   DATOS DIRECTOS (contacto.html)
+   ========================================================= */
+
+.channel-direct a {
+  color: var(--azul);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.channel-direct a:hover {
+  color: var(--cian);
+}
+
 .contact-channels {
   display: grid;
   gap: 16px;

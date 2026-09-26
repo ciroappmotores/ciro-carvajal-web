@@ -25,13 +25,4 @@ if (printBtn) {
   printBtn.addEventListener("click", () => window.print());
 }
 
-// Descargar CV completo (placeholder hasta publicar el PDF)
-const cvDownload = document.getElementById("cvDownload");
-if (cvDownload && cvDownload.getAttribute("href") === "#") {
-  cvDownload.addEventListener("click", (e) => {
-    e.preventDefault();
-    alert(
-      "El CV en PDF se publicará en una próxima versión. Por ahora use IMPRIMIR / GUARDAR PDF."
-    );
-  });
-}
+// Descargar CV completo (enlace directo al PDF en assets/docs/CV-Ciro-Carvajal.pdf)
