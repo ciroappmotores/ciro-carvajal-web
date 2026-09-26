@@ -27,7 +27,8 @@
   }
 
   .brand-text span {
-    display: none;
+    font-size: 0.78rem;
+    letter-spacing: 0.03em;
   }
 
   .hero-container {
@@ -72,11 +73,13 @@
   }
 
   .brand-logo {
-    height: 42px;
+    height: 50px;
   }
 
   .brand-text span {
     display: block;
+    font-size: 0.82rem;
+    letter-spacing: 0.03em;
   }
 
   /* Menú de escritorio oculto */
@@ -240,15 +243,12 @@
   }
 
   .brand-logo {
-    height: 38px;
-  }
-
-  .brand-text strong {
-    font-size: 0.9rem;
+    height: 44px;
   }
 
   .brand-text span {
-    font-size: 0.66rem;
+    font-size: 0.7rem;
+    letter-spacing: 0.02em;
   }
 
   .header-cta {
@@ -378,7 +378,8 @@
 @media (max-width: 390px) {
 
   .brand-text span {
-    display: none;
+    font-size: 0.62rem;
+    letter-spacing: 0.015em;
   }
 
   .hero-content h1 {
