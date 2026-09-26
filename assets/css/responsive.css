@@ -41,12 +41,11 @@
   }
 
   .hero-visual {
-    max-width: 390px;
+    max-width: min(390px, 43vh);
   }
 
   .hero-image {
     min-height: 0;
-    max-height: 52vh;
   }
 
 }
@@ -206,14 +205,13 @@
 
   .hero-visual {
     width: min(100%, 460px);
-    max-width: 460px;
+    max-width: min(460px, 31vh);
 
     justify-self: center;
   }
 
   .hero-image {
     min-height: 0;
-    max-height: 38vh;
   }
 
   /* Tarjetas */
@@ -445,12 +443,11 @@ body {
   }
 
   .hero-visual {
-    max-width: 400px;
+    max-width: min(400px, 41vh);
   }
 
   .hero-image {
     min-height: 0;
-    max-height: 50vh;
   }
 
 }
@@ -481,8 +478,8 @@ body {
     margin-bottom: 18px;
   }
 
-  .hero-image {
-    max-height: 47vh;
+  .hero-visual {
+    max-width: min(430px, 39vh);
   }
 
 }
@@ -515,8 +512,8 @@ body {
     margin-bottom: 14px;
   }
 
-  .hero-image {
-    max-height: 44vh;
+  .hero-visual {
+    max-width: min(430px, 36vh);
   }
 
 }
