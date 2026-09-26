@@ -12,6 +12,26 @@
 
   <title>Ciro Carvajal | Ingeniería · IA · Tecnología</title>
 
+  <meta name="theme-color" content="#082F49">
+  <!-- TODO: confirmar el dominio final y actualizar canonical / og:url / og:image -->
+  <link rel="canonical" href="https://cirocarvajal.com/">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Ciro Carvajal">
+  <meta property="og:title" content="Ciro Carvajal | Ingeniería · IA · Tecnología">
+  <meta property="og:description" content="Ciro Carvajal. Ingeniería, inteligencia artificial, transformación digital, seguridad y salud en el trabajo, academia y desarrollo tecnológico.">
+  <meta property="og:image" content="https://cirocarvajal.com/assets/img/ciro/ciro-carvajal-hero.png">
+  <meta property="og:url" content="https://cirocarvajal.com/">
+  <meta property="og:locale" content="es_CO">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Ciro Carvajal | Ingeniería · IA · Tecnología">
+  <meta name="twitter:description" content="Ciro Carvajal. Ingeniería, inteligencia artificial, transformación digital, seguridad y salud en el trabajo, academia y desarrollo tecnológico.">
+  <meta name="twitter:image" content="https://cirocarvajal.com/assets/img/ciro/ciro-carvajal-hero.png">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -21,6 +41,29 @@
 
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ciro Carvajal",
+    "jobTitle": "Ingeniero Mecánico · Doctor · Consultor · Docente Universitario",
+    "description": "Ingeniería, conocimiento y tecnología aplicados a soluciones reales: ingeniería mecánica, mantenimiento, SST, docencia, investigación, inteligencia artificial y desarrollo web.",
+    "url": "https://cirocarvajal.com/",
+    "image": "https://cirocarvajal.com/assets/img/ciro/ciro-carvajal-hero.png",
+    "sameAs": [],
+    "knowsAbout": [
+      "Ingeniería mecánica",
+      "Mantenimiento industrial",
+      "Seguridad y Salud en el Trabajo",
+      "Docencia universitaria",
+      "Investigación científica",
+      "Inteligencia Artificial",
+      "Transformación digital",
+      "Desarrollo web"
+    ]
+  }
+  </script>
 </head>
 
 <body>
@@ -156,11 +199,20 @@
 
           <div class="hero-image-frame">
 
-            <img
-              src="assets/img/ciro/ciro-carvajal-hero.png"
-              alt="Ciro Carvajal"
-              class="hero-image"
-            >
+            <picture>
+              <source
+                srcset="assets/img/ciro/ciro-carvajal-hero.webp"
+                type="image/webp"
+              >
+              <img
+                src="assets/img/ciro/ciro-carvajal-hero.jpg"
+                alt="Ciro Carvajal"
+                class="hero-image"
+                width="1200"
+                height="800"
+                decoding="async"
+              >
+            </picture>
 
           </div>
 
