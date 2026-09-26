@@ -132,16 +132,19 @@ textarea {
 .brand-text {
   display: flex;
   flex-direction: column;
-  line-height: 1.2;
+  line-height: 1.25;
 }
 
 .brand-text span {
   color: var(--azul-profundo);
-  font-size: 0.95rem;
+
+  font-size: 0.88rem;
   font-weight: 800;
-  letter-spacing: 0.04em;
+
+  letter-spacing: 0.035em;
+  line-height: 1.25;
+
   text-transform: uppercase;
-  white-space: nowrap;
 }
 
 
@@ -775,7 +778,7 @@ button:focus-visible {
 
 .brand-logo {
   width: auto;
-  height: 56px;
+  height: 64px;
   flex-shrink: 0;
 
   display: block;
